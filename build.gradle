@@ -1,0 +1,65 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.4.0'
+	id 'io.spring.dependency-management' version '1.1.6'
+	id 'org.ysb33r.doxygen' version '1.0.4'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	runtimeOnly 'com.h2database:h2'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	compileOnly 'org.projectlombok:lombok:1.18.36'
+	annotationProcessor 'org.projectlombok:lombok:1.18.36'
+	testCompileOnly 'org.projectlombok:lombok:1.18.36'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.36'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+doxygen {
+  source 'src/main/java'
+  option 'optimize_output_java', true
+  option 'recursive', true
+  option 'extract_all', true
+  option 'generate_treeview', true
+  option 'strip_code_comments', true
+  option 'references_link_source', true
+  option 'source_tooltips', true
+  option 'verbatim_headers', true
+  option 'class_graph', true
+  option 'collaboration_graph', true
+  option 'full_path_names', false
+  option 'markdown_support', true
+  option 'autolink_support', true
+  option 'subgrouping', true
+  option 'referenced_by_relation', true
+  option 'references_relation', true
+  option 'alphabetical_index', true
+  option 'generate_latex', false
+  option 'uml_lock', true
+  option 'uml_limit_num_fields', 50
+  option 'template_relations', true
+  option 'call_graph', true
+  option 'caller_graph', true
+  option 'dot_image_format', 'svg'
+  option 'dot_graph_max_nodes', 100
+}
