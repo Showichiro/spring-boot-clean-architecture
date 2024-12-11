@@ -15,13 +15,17 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import com.example.cleanarchitecture.core.exception.NotFoundException;
+
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
+import lombok.extern.slf4j.Slf4j;
 
 @RestControllerAdvice
+@Slf4j
 public class ErrorHandlers {
-    @ExceptionHandler(EntityNotFoundException.class)
+    @ExceptionHandler({ EntityNotFoundException.class, NotFoundException.class })
     public ResponseEntity<?> handleError404() {
         return ResponseEntity.notFound().build();
     }
@@ -87,11 +91,13 @@ public class ErrorHandlers {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<?> handleError500(Exception ex) {
+        log.error("Error", ex);
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error: " + ex.getLocalizedMessage());
     }
 
     @ExceptionHandler(JpaSystemException.class)
     public ResponseEntity<?> handleError500(JpaSystemException ex) {
+        log.error("Error", ex);
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error: " + ex.getLocalizedMessage());
     }
 

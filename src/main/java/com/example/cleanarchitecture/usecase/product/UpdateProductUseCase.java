@@ -1,20 +1,19 @@
 package com.example.cleanarchitecture.usecase.product;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import com.example.cleanarchitecture.core.product.exception.ProductNotFoundException;
 import com.example.cleanarchitecture.core.product.gateway.ProductGateway;
 import com.example.cleanarchitecture.core.product.model.Product;
 import com.example.cleanarchitecture.usecase.product.dto.IProductUpdateData;
 
-@Component
 public class UpdateProductUseCase {
-    @Autowired
-    private ProductGateway productGateway;
+    private final ProductGateway productGateway;
+
+    public UpdateProductUseCase(ProductGateway productGateway) {
+        this.productGateway = productGateway;
+    }
 
     public Product execute(Long id, IProductUpdateData data) throws ProductNotFoundException {
-        Product product = productGateway.findById(id).orElseThrow(ProductNotFoundException::new);
+        Product product = productGateway.findById(id).orElseThrow(() -> new ProductNotFoundException(id));
         if (data.name() != null && !data.name().isBlank()) {
             product.setName(data.name());
         }
