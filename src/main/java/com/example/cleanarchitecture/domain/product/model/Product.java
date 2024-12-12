@@ -1,6 +1,6 @@
-package com.example.cleanarchitecture.core.product.model;
+package com.example.cleanarchitecture.domain.product.model;
 
-import com.example.cleanarchitecture.core.AbstractEntity;
+import com.example.cleanarchitecture.core.domain.AbstractEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

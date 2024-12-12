@@ -1,7 +1,7 @@
 package com.example.cleanarchitecture.usecase.product;
 
-import com.example.cleanarchitecture.core.product.gateway.ProductGateway;
-import com.example.cleanarchitecture.core.product.model.Product;
+import com.example.cleanarchitecture.domain.product.gateway.ProductGateway;
+import com.example.cleanarchitecture.domain.product.model.Product;
 import com.example.cleanarchitecture.usecase.product.dto.IProductRegistrationData;
 
 public class CreateProductUseCase {

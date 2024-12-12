@@ -1,4 +1,4 @@
-package com.example.cleanarchitecture.core.product.exception;
+package com.example.cleanarchitecture.domain.product.exception;
 
 import com.example.cleanarchitecture.core.exception.NotFoundException;
 

@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.example.cleanarchitecture.core.product.gateway.ProductGateway;
-import com.example.cleanarchitecture.core.product.model.Product;
+import com.example.cleanarchitecture.domain.product.gateway.ProductGateway;
+import com.example.cleanarchitecture.domain.product.model.Product;
 import com.example.cleanarchitecture.infrastructure.config.db.repository.ProductRepository;
 import com.example.cleanarchitecture.infrastructure.config.db.schema.ProductSchema;
 

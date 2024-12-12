@@ -1,8 +1,8 @@
 package com.example.cleanarchitecture.usecase.product;
 
-import com.example.cleanarchitecture.core.product.exception.ProductNotFoundException;
-import com.example.cleanarchitecture.core.product.gateway.ProductGateway;
-import com.example.cleanarchitecture.core.product.model.Product;
+import com.example.cleanarchitecture.domain.product.exception.ProductNotFoundException;
+import com.example.cleanarchitecture.domain.product.gateway.ProductGateway;
+import com.example.cleanarchitecture.domain.product.model.Product;
 
 public class GetProductUseCase {
     private final ProductGateway productGateway;

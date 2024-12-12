@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.cleanarchitecture.core.product.exception.ProductNotFoundException;
+import com.example.cleanarchitecture.domain.product.exception.ProductNotFoundException;
 import com.example.cleanarchitecture.infrastructure.product.dto.ProductPublicData;
 import com.example.cleanarchitecture.usecase.product.GetProductUseCase;
 

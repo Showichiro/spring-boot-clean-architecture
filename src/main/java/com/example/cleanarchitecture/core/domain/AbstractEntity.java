@@ -1,4 +1,4 @@
-package com.example.cleanarchitecture.core;
+package com.example.cleanarchitecture.core.domain;
 
 import java.io.Serializable;
 

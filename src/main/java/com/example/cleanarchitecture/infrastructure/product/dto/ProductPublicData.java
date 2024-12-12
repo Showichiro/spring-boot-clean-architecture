@@ -1,6 +1,6 @@
 package com.example.cleanarchitecture.infrastructure.product.dto;
 
-import com.example.cleanarchitecture.core.product.model.Product;
+import com.example.cleanarchitecture.domain.product.model.Product;
 import com.example.cleanarchitecture.usecase.product.dto.IProductPublicData;
 
 public record ProductPublicData(
