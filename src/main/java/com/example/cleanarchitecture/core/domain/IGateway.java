@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface IGateway<S, ID> {
-    S create(S product);
+    S create(S entity);
 
     S update(S product);
 

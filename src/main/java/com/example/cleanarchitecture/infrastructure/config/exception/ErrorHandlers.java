@@ -15,6 +15,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import com.example.cleanarchitecture.core.exception.BadRequestException;
 import com.example.cleanarchitecture.core.exception.NotFoundException;
 
 import jakarta.persistence.EntityNotFoundException;
@@ -59,6 +60,11 @@ public class ErrorHandlers {
         });
 
         return ResponseEntity.badRequest().body(messages);
+    }
+
+    @ExceptionHandler(BadRequestException.class)
+    public ResponseEntity<?> handleBadRequestException(BadRequestException ex) {
+        return ResponseEntity.badRequest().body(ex.getLocalizedMessage());
     }
 
     @ExceptionHandler(ConstraintViolationException.class)
