@@ -1,5 +1,20 @@
 # クリーンアーキテクチャを基にした在庫管理アプリケーション
 
+## dev
+
+```
+./gradlew bootRun
+```
+
+## docgen
+
+doxygen と graphvizがインストールされている必要あり([参考](https://qiita.com/ryotaro76/items/6730c6d8572e713e79b9)).
+
+```
+doxygen
+```
+
+
 **注記**
 以下の文章はAIによって書かれています。
 https://chatgpt.com/share/675ae52b-b1f8-8001-8153-4fe5ed9f41e8
