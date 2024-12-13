@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Spring Boot Clean Architecture: com.example.cleanarchitecture.domain.inventory.model.Inventory クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Spring Boot Clean Architecture
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>com</b></li><li class="navelem"><b>example</b></li><li class="navelem"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture.html">cleanarchitecture</a></li><li class="navelem"><b>domain</b></li><li class="navelem"><b>inventory</b></li><li class="navelem"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model.html">model</a></li><li class="navelem"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.example.cleanarchitecture.domain.inventory.model.Inventory クラス</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+com.example.cleanarchitecture.domain.inventory.model.Inventory の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory__inherit__graph.svg" width="406" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+com.example.cleanarchitecture.domain.inventory.model.Inventory 連携図</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory__coll__graph.svg" width="406" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a43a5ea6ecab75fbcac080efb35c5f0a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#a43a5ea6ecab75fbcac080efb35c5f0a5">Inventory</a> (Long <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1AbstractEntity.html#a96e42e79f2728316b6dc8a270f0a64b7">id</a>, String <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#ac18fa878aefcacbd9eaf7ff3277eb38e">name</a>, int <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#afc966325fa41e7d4faa2790f1a89c85c">quantity</a>)</td></tr>
+<tr class="separator:a43a5ea6ecab75fbcac080efb35c5f0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1af76eb458bfcb87f8bf737a6d0f56e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#ac1af76eb458bfcb87f8bf737a6d0f56e">reducible</a> (int amount)</td></tr>
+<tr class="separator:ac1af76eb458bfcb87f8bf737a6d0f56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c0f5831bfded2b37bd47f4782655f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#a83c0f5831bfded2b37bd47f4782655f8">reduce</a> (int amount)</td></tr>
+<tr class="separator:a83c0f5831bfded2b37bd47f4782655f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a23ea209dd1a6ef247a7885e7d5578ea6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#a23ea209dd1a6ef247a7885e7d5578ea6">validateName</a> (String <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#ac18fa878aefcacbd9eaf7ff3277eb38e">name</a>)</td></tr>
+<tr class="separator:a23ea209dd1a6ef247a7885e7d5578ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183e5068bb9596ae76bb4d97752edeef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#a183e5068bb9596ae76bb4d97752edeef">validateQuantity</a> (int <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#afc966325fa41e7d4faa2790f1a89c85c">quantity</a>)</td></tr>
+<tr class="separator:a183e5068bb9596ae76bb4d97752edeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:ac18fa878aefcacbd9eaf7ff3277eb38e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#ac18fa878aefcacbd9eaf7ff3277eb38e">name</a></td></tr>
+<tr class="separator:ac18fa878aefcacbd9eaf7ff3277eb38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc966325fa41e7d4faa2790f1a89c85c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#afc966325fa41e7d4faa2790f1a89c85c">quantity</a></td></tr>
+<tr class="separator:afc966325fa41e7d4faa2790f1a89c85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">構築子と解体子</h2>
+<a id="a43a5ea6ecab75fbcac080efb35c5f0a5" name="a43a5ea6ecab75fbcac080efb35c5f0a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a5ea6ecab75fbcac080efb35c5f0a5">&#9670;&#160;</a></span>Inventory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.example.cleanarchitecture.domain.inventory.model.Inventory.Inventory </td>
+          <td>(</td>
+          <td class="paramtype">Long&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>quantity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a83c0f5831bfded2b37bd47f4782655f8" name="a83c0f5831bfded2b37bd47f4782655f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83c0f5831bfded2b37bd47f4782655f8">&#9670;&#160;</a></span>reduce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> com.example.cleanarchitecture.domain.inventory.model.Inventory.reduce </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>在庫を指定分減らしたインスタンスを返却する. </p>
+
+<p class="reference">参照元 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1order_1_1CreateOrderUseCase.html#a0359d71b84f30fcd46bcfb295d8e67e9">com.example.cleanarchitecture.usecase.order.CreateOrderUseCase.createOrder()</a>.</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory_a83c0f5831bfded2b37bd47f4782655f8_icgraph.svg" width="1648" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac1af76eb458bfcb87f8bf737a6d0f56e" name="ac1af76eb458bfcb87f8bf737a6d0f56e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1af76eb458bfcb87f8bf737a6d0f56e">&#9670;&#160;</a></span>reducible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.example.cleanarchitecture.domain.inventory.model.Inventory.reducible </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>在庫を減らすことが可能かどうか. </p>
+
+<p class="reference">参照元 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1order_1_1CreateOrderUseCase.html#a0359d71b84f30fcd46bcfb295d8e67e9">com.example.cleanarchitecture.usecase.order.CreateOrderUseCase.createOrder()</a>.</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory_ac1af76eb458bfcb87f8bf737a6d0f56e_icgraph.svg" width="1648" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a23ea209dd1a6ef247a7885e7d5578ea6" name="a23ea209dd1a6ef247a7885e7d5578ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ea209dd1a6ef247a7885e7d5578ea6">&#9670;&#160;</a></span>validateName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.example.cleanarchitecture.domain.inventory.model.Inventory.validateName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a183e5068bb9596ae76bb4d97752edeef" name="a183e5068bb9596ae76bb4d97752edeef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183e5068bb9596ae76bb4d97752edeef">&#9670;&#160;</a></span>validateQuantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.example.cleanarchitecture.domain.inventory.model.Inventory.validateQuantity </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>quantity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ac18fa878aefcacbd9eaf7ff3277eb38e" name="ac18fa878aefcacbd9eaf7ff3277eb38e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac18fa878aefcacbd9eaf7ff3277eb38e">&#9670;&#160;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.example.cleanarchitecture.domain.inventory.model.Inventory.name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc966325fa41e7d4faa2790f1a89c85c" name="afc966325fa41e7d4faa2790f1a89c85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc966325fa41e7d4faa2790f1a89c85c">&#9670;&#160;</a></span>quantity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int com.example.cleanarchitecture.domain.inventory.model.Inventory.quantity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>src/main/java/com/example/cleanarchitecture/domain/inventory/model/<a class="el" href="Inventory_8java.html">Inventory.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築:&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

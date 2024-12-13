@@ -1,0 +1,5 @@
+<map id="com.example.cleanarchitecture.core.domain.IGateway.delete" name="com.example.cleanarchitecture.core.domain.IGateway.delete">
+<area shape="rect" id="node1" title=" " alt="" coords="908,5,1225,45"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1DeleteInventoryUseCase.html#ae0ffc6d141f4a270df78212a2a1f2042" title=" " alt="" coords="507,5,860,45"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1controller_1_1DeleteInventoryController.html#a20f68964fe804748f2c0d5d8dbfc48ca" title=" " alt="" coords="5,5,459,45"/>
+</map>

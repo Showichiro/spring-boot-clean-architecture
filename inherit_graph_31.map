@@ -1,0 +1,7 @@
+<map id="クラス階層図" name="クラス階層図">
+<area shape="rect" id="node1" title=" " alt="" coords="5,45,92,70"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1core_1_1exception_1_1BadRequestException.html" title=" " alt="" coords="140,5,472,45"/>
+<area shape="rect" id="node4" href="$classcom_1_1example_1_1cleanarchitecture_1_1core_1_1exception_1_1NotFoundException.html" title=" " alt="" coords="140,69,472,109"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1exception_1_1InventoryIrreducibleException.html" title=" " alt="" coords="520,5,937,45"/>
+<area shape="rect" id="node5" href="$classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1exception_1_1InventoryNotFoundException.html" title=" " alt="" coords="520,69,937,109"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway" name="com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway">
+<area shape="rect" id="node1" title=" " alt="" coords="212,360,659,525"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1gateway_1_1InventoryGateway.html" title=" " alt="" coords="5,205,412,297"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html" title=" " alt="" coords="50,5,367,156"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1repository_1_1InventoryRepository.html" title=" " alt="" coords="436,205,891,297"/>
+<area shape="rect" id="node5" title=" " alt="" coords="569,35,758,127"/>
+</map>

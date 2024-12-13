@@ -1,0 +1,8 @@
+<map id="com.example.cleanarchitecture.usecase.order.CreateOrderUseCase.createOrder" name="com.example.cleanarchitecture.usecase.order.CreateOrderUseCase.createOrder">
+<area shape="rect" id="node1" title=" " alt="" coords="5,133,332,173"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#acd8f34d5bc57a8336c406b12b9f0aa61" title=" " alt="" coords="419,5,736,45"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a244c5e7e569a1cd9ccafbaaba8ecb6ba" title=" " alt="" coords="419,69,736,109"/>
+<area shape="rect" id="node4" href="$classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#a83c0f5831bfded2b37bd47f4782655f8" title=" " alt="" coords="380,133,775,173"/>
+<area shape="rect" id="node5" href="$classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#ac1af76eb458bfcb87f8bf737a6d0f56e" title=" " alt="" coords="380,197,775,237"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a5583f82a13f8ec30c91771e791286be9" title=" " alt="" coords="419,261,736,301"/>
+</map>

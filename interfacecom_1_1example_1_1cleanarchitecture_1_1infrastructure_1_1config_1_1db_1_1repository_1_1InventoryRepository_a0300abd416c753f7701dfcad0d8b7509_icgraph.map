@@ -1,0 +1,4 @@
+<map id="com.example.cleanarchitecture.infrastructure.config.db.repository.InventoryRepository.existsByName" name="com.example.cleanarchitecture.infrastructure.config.db.repository.InventoryRepository.existsByName">
+<area shape="rect" id="node1" title=" " alt="" coords="511,5,965,45"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1validation_1_1UniqueNameValidator.html#ad00f9012a08ca9a8512a79a0f7876ce4" title=" " alt="" coords="5,5,463,45"/>
+</map>

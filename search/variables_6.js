@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['quantity_0',['quantity',['../classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html#afc966325fa41e7d4faa2790f1a89c85c',1,'com.example.cleanarchitecture.domain.inventory.model.Inventory.quantity()'],['../classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1order_1_1model_1_1Order.html#a75e6490dbaf249a097a47c43efca4e61',1,'com.example.cleanarchitecture.domain.order.model.Order.quantity()'],['../classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1InventorySchema.html#a9980d46ccc514112254f5896998e0b33',1,'com.example.cleanarchitecture.infrastructure.config.db.schema.InventorySchema.quantity()'],['../classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1OrderSchema.html#ae744b0c29a1f0b648c718d1b7e1828eb',1,'com.example.cleanarchitecture.infrastructure.config.db.schema.OrderSchema.quantity()']]]
+];

@@ -1,0 +1,7 @@
+<map id="com.example.cleanarchitecture.infrastructure.inventory.controller.SearchInventoryController.searchInventoryPublicData" name="com.example.cleanarchitecture.infrastructure.inventory.controller.SearchInventoryController.searchInventoryPublicData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,459,109"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1SearchInventoryUseCase.html#afbb0cf228e7135d8b2432c4e5abcf82a" title=" " alt="" coords="507,69,860,109"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1gateway_1_1InventoryGateway.html#a3486ef0f0fd05fe205f0640a2fd9c510" title=" " alt="" coords="908,5,1315,45"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventorySearchData.html#adf8488874659b66a873d87b5e38610d9" title=" " alt="" coords="922,69,1301,109"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventorySearchData.html#a38f419bd92800dab540d597d9941b626" title=" " alt="" coords="922,133,1301,173"/>
+</map>

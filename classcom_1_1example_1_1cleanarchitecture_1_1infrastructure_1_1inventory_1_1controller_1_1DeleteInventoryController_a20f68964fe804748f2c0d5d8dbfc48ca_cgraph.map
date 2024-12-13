@@ -1,0 +1,5 @@
+<map id="com.example.cleanarchitecture.infrastructure.inventory.controller.DeleteInventoryController.deleteInventory" name="com.example.cleanarchitecture.infrastructure.inventory.controller.DeleteInventoryController.deleteInventory">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,459,45"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1DeleteInventoryUseCase.html#ae0ffc6d141f4a270df78212a2a1f2042" title=" " alt="" coords="507,5,860,45"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a1834f147b1b4ba1d69ff864f423659ae" title=" " alt="" coords="908,5,1225,45"/>
+</map>

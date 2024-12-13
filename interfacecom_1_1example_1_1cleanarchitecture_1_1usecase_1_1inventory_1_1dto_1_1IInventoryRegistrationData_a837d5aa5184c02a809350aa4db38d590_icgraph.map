@@ -1,0 +1,5 @@
+<map id="com.example.cleanarchitecture.usecase.inventory.dto.IInventoryRegistrationData.quantity" name="com.example.cleanarchitecture.usecase.inventory.dto.IInventoryRegistrationData.quantity">
+<area shape="rect" id="node1" title=" " alt="" coords="908,5,1287,45"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1CreateInventoryUseCase.html#aaad5799d9fd2a08aa2c446a5cb954a0d" title=" " alt="" coords="507,5,860,45"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1controller_1_1CreateInventoryController.html#aca7c36c6b44cb8e80faaf22cb5c74ffc" title=" " alt="" coords="5,5,459,45"/>
+</map>

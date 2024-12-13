@@ -1,0 +1,5 @@
+<map id="クラス階層図" name="クラス階層図">
+<area shape="rect" id="node1" title=" " alt="" coords="5,45,117,70"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1repository_1_1InventoryRepository.html" title=" " alt="" coords="165,5,620,45"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1repository_1_1OrderRepository.html" title=" " alt="" coords="165,69,620,109"/>
+</map>

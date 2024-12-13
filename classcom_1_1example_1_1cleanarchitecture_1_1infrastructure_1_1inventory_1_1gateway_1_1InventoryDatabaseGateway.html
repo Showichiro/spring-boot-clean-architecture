@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Spring Boot Clean Architecture: com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Spring Boot Clean Architecture
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>com</b></li><li class="navelem"><b>example</b></li><li class="navelem"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture.html">cleanarchitecture</a></li><li class="navelem"><b>infrastructure</b></li><li class="navelem"><b>inventory</b></li><li class="navelem"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway.html">gateway</a></li><li class="navelem"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html">InventoryDatabaseGateway</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway クラス</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway__inherit__graph.svg" width="458" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway 連携図</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway__coll__graph.svg" width="896" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1718d0b5e087083c702e04e49e58d349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a1718d0b5e087083c702e04e49e58d349">create</a> (<a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> product)</td></tr>
+<tr class="separator:a1718d0b5e087083c702e04e49e58d349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e365399ac399434946e479e9ca952e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a5e365399ac399434946e479e9ca952e3">delete</a> (Long id)</td></tr>
+<tr class="separator:a5e365399ac399434946e479e9ca952e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85bb31cbc0b44554e5bbdb706c8835d8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a85bb31cbc0b44554e5bbdb706c8835d8">findAll</a> ()</td></tr>
+<tr class="separator:a85bb31cbc0b44554e5bbdb706c8835d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ddd6f3bf77a8f60c42233e5ced9b5da"><td class="memItemLeft" align="right" valign="top">Optional&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a7ddd6f3bf77a8f60c42233e5ced9b5da">findById</a> (Long id)</td></tr>
+<tr class="separator:a7ddd6f3bf77a8f60c42233e5ced9b5da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa688884a5cabbfd271726cf08275cbeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#aa688884a5cabbfd271726cf08275cbeb">update</a> (<a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> product)</td></tr>
+<tr class="separator:aa688884a5cabbfd271726cf08275cbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31576b92c6698106cd1275e5d8876a83"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a31576b92c6698106cd1275e5d8876a83">findAll</a> (int size, int page)</td></tr>
+<tr class="separator:a31576b92c6698106cd1275e5d8876a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3486ef0f0fd05fe205f0640a2fd9c510"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1gateway_1_1InventoryGateway.html#a3486ef0f0fd05fe205f0640a2fd9c510">findAll</a> (int size, int page)</td></tr>
+<tr class="separator:a3486ef0f0fd05fe205f0640a2fd9c510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html">com.example.cleanarchitecture.core.domain.IGateway&lt; S, ID &gt;</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:acd8f34d5bc57a8336c406b12b9f0aa61 inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memItemLeft" align="right" valign="top">S&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#acd8f34d5bc57a8336c406b12b9f0aa61">create</a> (S entity)</td></tr>
+<tr class="separator:acd8f34d5bc57a8336c406b12b9f0aa61 inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5583f82a13f8ec30c91771e791286be9 inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memItemLeft" align="right" valign="top">S&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a5583f82a13f8ec30c91771e791286be9">update</a> (S product)</td></tr>
+<tr class="separator:a5583f82a13f8ec30c91771e791286be9 inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1834f147b1b4ba1d69ff864f423659ae inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a1834f147b1b4ba1d69ff864f423659ae">delete</a> (ID id)</td></tr>
+<tr class="separator:a1834f147b1b4ba1d69ff864f423659ae inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a244c5e7e569a1cd9ccafbaaba8ecb6ba inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memItemLeft" align="right" valign="top">Optional&lt; S &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a244c5e7e569a1cd9ccafbaaba8ecb6ba">findById</a> (ID id)</td></tr>
+<tr class="separator:a244c5e7e569a1cd9ccafbaaba8ecb6ba inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3d1bf6d4e1b15ae43d9d269ad7ebc5 inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memItemLeft" align="right" valign="top">List&lt; S &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a0d3d1bf6d4e1b15ae43d9d269ad7ebc5">findAll</a> ()</td></tr>
+<tr class="separator:a0d3d1bf6d4e1b15ae43d9d269ad7ebc5 inherit pub_methods_interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a8aab2e9d36ff64aaea80b212327cf60d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1repository_1_1InventoryRepository.html">InventoryRepository</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">inventoryRepository</a></td></tr>
+<tr class="separator:a8aab2e9d36ff64aaea80b212327cf60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a1718d0b5e087083c702e04e49e58d349" name="a1718d0b5e087083c702e04e49e58d349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1718d0b5e087083c702e04e49e58d349">&#9670;&#160;</a></span>create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a>&#160;</td>
+          <td class="paramname"><em>product</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#aad5b7221c07391b0ba4ea4bb2b3f2aa8">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.fromInventory()</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#a771ce58b5e4120211c6285bf65f0c39b">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.toInventory()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway_a1718d0b5e087083c702e04e49e58d349_cgraph.svg" width="946" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5e365399ac399434946e479e9ca952e3" name="a5e365399ac399434946e479e9ca952e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e365399ac399434946e479e9ca952e3">&#9670;&#160;</a></span>delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.delete </td>
+          <td>(</td>
+          <td class="paramtype">Long&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</a>.</p>
+
+</div>
+</div>
+<a id="a85bb31cbc0b44554e5bbdb706c8835d8" name="a85bb31cbc0b44554e5bbdb706c8835d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85bb31cbc0b44554e5bbdb706c8835d8">&#9670;&#160;</a></span>findAll() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt; com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.findAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#a0d3d1bf6d4e1b15ae43d9d269ad7ebc5">com.example.cleanarchitecture.core.domain.IGateway&lt; S, ID &gt;</a>を実装しています。</p>
+
+<p class="reference">参照先 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#a771ce58b5e4120211c6285bf65f0c39b">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.toInventory()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway_a85bb31cbc0b44554e5bbdb706c8835d8_cgraph.svg" width="946" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a31576b92c6698106cd1275e5d8876a83" name="a31576b92c6698106cd1275e5d8876a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31576b92c6698106cd1275e5d8876a83">&#9670;&#160;</a></span>findAll() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt; com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.findAll </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>page</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1gateway_1_1InventoryGateway.html#a3486ef0f0fd05fe205f0640a2fd9c510">com.example.cleanarchitecture.domain.inventory.gateway.InventoryGateway</a>を実装しています。</p>
+
+<p class="reference">参照先 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#a771ce58b5e4120211c6285bf65f0c39b">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.toInventory()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway_a31576b92c6698106cd1275e5d8876a83_cgraph.svg" width="946" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7ddd6f3bf77a8f60c42233e5ced9b5da" name="a7ddd6f3bf77a8f60c42233e5ced9b5da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ddd6f3bf77a8f60c42233e5ced9b5da">&#9670;&#160;</a></span>findById()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Optional&lt; <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> &gt; com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.findById </td>
+          <td>(</td>
+          <td class="paramtype">Long&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#a771ce58b5e4120211c6285bf65f0c39b">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.toInventory()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway_a7ddd6f3bf77a8f60c42233e5ced9b5da_cgraph.svg" width="946" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa688884a5cabbfd271726cf08275cbeb" name="aa688884a5cabbfd271726cf08275cbeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa688884a5cabbfd271726cf08275cbeb">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a> com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1model_1_1Inventory.html">Inventory</a>&#160;</td>
+          <td class="paramname"><em>product</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#aad5b7221c07391b0ba4ea4bb2b3f2aa8">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.fromInventory()</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a8aab2e9d36ff64aaea80b212327cf60d">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1mapper_1_1InventoryMapper.html#a771ce58b5e4120211c6285bf65f0c39b">com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.toInventory()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway_aa688884a5cabbfd271726cf08275cbeb_cgraph.svg" width="946" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a8aab2e9d36ff64aaea80b212327cf60d" name="a8aab2e9d36ff64aaea80b212327cf60d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aab2e9d36ff64aaea80b212327cf60d">&#9670;&#160;</a></span>inventoryRepository</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1repository_1_1InventoryRepository.html">InventoryRepository</a> com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.inventoryRepository</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">参照元 <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a1718d0b5e087083c702e04e49e58d349">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.create()</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a5e365399ac399434946e479e9ca952e3">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.delete()</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a85bb31cbc0b44554e5bbdb706c8835d8">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.findAll()</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a7ddd6f3bf77a8f60c42233e5ced9b5da">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.findById()</a>, <a class="el" href="classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#aa688884a5cabbfd271726cf08275cbeb">com.example.cleanarchitecture.infrastructure.inventory.gateway.InventoryDatabaseGateway.update()</a>.</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>src/main/java/com/example/cleanarchitecture/infrastructure/inventory/gateway/<a class="el" href="InventoryDatabaseGateway_8java.html">InventoryDatabaseGateway.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築:&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

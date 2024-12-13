@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Spring Boot Clean Architecture: com.example.cleanarchitecture.infrastructure.inventory.dto パッケージ</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Spring Boot Clean Architecture
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>com</b></li><li class="navelem"><b>example</b></li><li class="navelem"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture.html">cleanarchitecture</a></li><li class="navelem"><b>infrastructure</b></li><li class="navelem"><b>inventory</b></li><li class="navelem"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html">dto</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle"><div class="title">com.example.cleanarchitecture.infrastructure.inventory.dto パッケージ</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:aa45f528ba9d1b1380e7fcd9fd3eea961"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#aa45f528ba9d1b1380e7fcd9fd3eea961">InventoryPublicData</a> (Long id, String name, int quantity) implements <a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventoryPublicData.html">IInventoryPublicData</a></td></tr>
+<tr class="separator:aa45f528ba9d1b1380e7fcd9fd3eea961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b3dc13143bff13d1c1bd1eea12bf8e"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#a69b3dc13143bff13d1c1bd1eea12bf8e">InventoryRegistrationData</a> ( @NotBlank @<a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1validation_1_1UniqueName.html">UniqueName</a> String name, @Min(0) int quantity) implements <a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventoryRegistrationData.html">IInventoryRegistrationData</a></td></tr>
+<tr class="separator:a69b3dc13143bff13d1c1bd1eea12bf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8e10bd0e04571d682af7215ae17583"><td class="memItemLeft" align="right" valign="top">record&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#a8f8e10bd0e04571d682af7215ae17583">InventorySearchData</a> ( @Min(1) @Max(100) int size, @Min(0) int page) implements <a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventorySearchData.html">IInventorySearchData</a></td></tr>
+<tr class="separator:a8f8e10bd0e04571d682af7215ae17583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数詳解</h2>
+<a id="aa45f528ba9d1b1380e7fcd9fd3eea961" name="aa45f528ba9d1b1380e7fcd9fd3eea961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45f528ba9d1b1380e7fcd9fd3eea961">&#9670;&#160;</a></span>InventoryPublicData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">record com.example.cleanarchitecture.infrastructure.inventory.dto.InventoryPublicData </td>
+          <td>(</td>
+          <td class="paramtype">Long&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>quantity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#aa45f528ba9d1b1380e7fcd9fd3eea961">com.example.cleanarchitecture.infrastructure.inventory.dto.InventoryPublicData()</a>.</p>
+
+<p class="reference">参照元 <a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#aa45f528ba9d1b1380e7fcd9fd3eea961">com.example.cleanarchitecture.infrastructure.inventory.dto.InventoryPublicData()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto_aa45f528ba9d1b1380e7fcd9fd3eea961_cgraph.svg" width="424" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto_aa45f528ba9d1b1380e7fcd9fd3eea961_icgraph.svg" width="424" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a69b3dc13143bff13d1c1bd1eea12bf8e" name="a69b3dc13143bff13d1c1bd1eea12bf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b3dc13143bff13d1c1bd1eea12bf8e">&#9670;&#160;</a></span>InventoryRegistrationData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">record com.example.cleanarchitecture.infrastructure.inventory.dto.InventoryRegistrationData </td>
+          <td>(</td>
+          <td class="paramtype">@NotBlank @<a class="el" href="interfacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1validation_1_1UniqueName.html">UniqueName</a> String&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Min(0) int&#160;</td>
+          <td class="paramname"><em>quantity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#a69b3dc13143bff13d1c1bd1eea12bf8e">com.example.cleanarchitecture.infrastructure.inventory.dto.InventoryRegistrationData()</a>.</p>
+
+<p class="reference">参照元 <a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#a69b3dc13143bff13d1c1bd1eea12bf8e">com.example.cleanarchitecture.infrastructure.inventory.dto.InventoryRegistrationData()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto_a69b3dc13143bff13d1c1bd1eea12bf8e_cgraph.svg" width="424" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto_a69b3dc13143bff13d1c1bd1eea12bf8e_icgraph.svg" width="424" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a8f8e10bd0e04571d682af7215ae17583" name="a8f8e10bd0e04571d682af7215ae17583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f8e10bd0e04571d682af7215ae17583">&#9670;&#160;</a></span>InventorySearchData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">record com.example.cleanarchitecture.infrastructure.inventory.dto.InventorySearchData </td>
+          <td>(</td>
+          <td class="paramtype">@Min(1) @Max(100) int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Min(0) int&#160;</td>
+          <td class="paramname"><em>page</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">参照先 <a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#a8f8e10bd0e04571d682af7215ae17583">com.example.cleanarchitecture.infrastructure.inventory.dto.InventorySearchData()</a>.</p>
+
+<p class="reference">参照元 <a class="el" href="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto.html#a8f8e10bd0e04571d682af7215ae17583">com.example.cleanarchitecture.infrastructure.inventory.dto.InventorySearchData()</a>.</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto_a8f8e10bd0e04571d682af7215ae17583_cgraph.svg" width="424" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacecom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1dto_a8f8e10bd0e04571d682af7215ae17583_icgraph.svg" width="424" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築:&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

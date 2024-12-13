@@ -1,0 +1,7 @@
+<map id="com.example.cleanarchitecture.infrastructure.inventory.controller.CreateInventoryController.createInventory" name="com.example.cleanarchitecture.infrastructure.inventory.controller.CreateInventoryController.createInventory">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,459,109"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1CreateInventoryUseCase.html#aaad5799d9fd2a08aa2c446a5cb954a0d" title=" " alt="" coords="507,69,860,109"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html#acd8f34d5bc57a8336c406b12b9f0aa61" title=" " alt="" coords="939,5,1256,45"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventoryRegistrationData.html#a727aa50443e59292b199df4c34bd99ed" title=" " alt="" coords="908,69,1287,109"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventoryRegistrationData.html#a837d5aa5184c02a809350aa4db38d590" title=" " alt="" coords="908,133,1287,173"/>
+</map>

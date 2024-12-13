@@ -1,0 +1,5 @@
+<map id="com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.fromInventory" name="com.example.cleanarchitecture.infrastructure.config.db.mapper.InventoryMapper.fromInventory">
+<area shape="rect" id="node1" title=" " alt="" coords="500,37,940,77"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#a1718d0b5e087083c702e04e49e58d349" title=" " alt="" coords="5,5,452,45"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1inventory_1_1gateway_1_1InventoryDatabaseGateway.html#aa688884a5cabbfd271726cf08275cbeb" title=" " alt="" coords="5,69,452,109"/>
+</map>

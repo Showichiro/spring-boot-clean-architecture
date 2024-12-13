@@ -1,0 +1,8 @@
+<map id="com.example.cleanarchitecture.infrastructure.config.db.schema.OrderSchema" name="com.example.cleanarchitecture.infrastructure.config.db.schema.OrderSchema">
+<area shape="rect" id="node1" title=" " alt="" coords="108,625,551,732"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1AbstractEntitySchema.html" title=" " alt="" coords="299,287,741,379"/>
+<area shape="rect" id="node6" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1InventorySchema.html" title=" " alt="" coords="108,456,551,563"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1AbstractEntitySchema.html" title=" " alt="" coords="299,132,741,224"/>
+<area shape="rect" id="node4" title=" " alt="" coords="471,5,569,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="19,294,139,371"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.example.cleanarchitecture.infrastructure.config.db.schema.AbstractEntitySchema&lt; ID extends Serializable &gt;" name="com.example.cleanarchitecture.infrastructure.config.db.schema.AbstractEntitySchema&lt; ID extends Serializable &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="239,132,681,224"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1AbstractEntitySchema.html" title=" " alt="" coords="239,287,681,379"/>
+<area shape="rect" id="node2" title=" " alt="" coords="411,5,509,83"/>
+<area shape="rect" id="node4" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1InventorySchema.html" title=" " alt="" coords="5,435,448,571"/>
+<area shape="rect" id="node5" href="$classcom_1_1example_1_1cleanarchitecture_1_1infrastructure_1_1config_1_1db_1_1schema_1_1OrderSchema.html" title=" " alt="" coords="472,428,915,579"/>
+</map>

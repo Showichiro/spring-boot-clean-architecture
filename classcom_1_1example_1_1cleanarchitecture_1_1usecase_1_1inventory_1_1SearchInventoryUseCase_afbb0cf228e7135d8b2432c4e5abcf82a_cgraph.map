@@ -1,0 +1,6 @@
+<map id="com.example.cleanarchitecture.usecase.inventory.SearchInventoryUseCase.searchInventories" name="com.example.cleanarchitecture.usecase.inventory.SearchInventoryUseCase.searchInventories">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,359,109"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1gateway_1_1InventoryGateway.html#a3486ef0f0fd05fe205f0640a2fd9c510" title=" " alt="" coords="407,5,813,45"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventorySearchData.html#adf8488874659b66a873d87b5e38610d9" title=" " alt="" coords="421,69,799,109"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1usecase_1_1inventory_1_1dto_1_1IInventorySearchData.html#a38f419bd92800dab540d597d9941b626" title=" " alt="" coords="421,133,799,173"/>
+</map>

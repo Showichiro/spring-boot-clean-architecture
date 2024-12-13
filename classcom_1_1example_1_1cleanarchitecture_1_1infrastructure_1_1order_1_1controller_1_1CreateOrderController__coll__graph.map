@@ -1,0 +1,9 @@
+<map id="com.example.cleanarchitecture.infrastructure.order.controller.CreateOrderController" name="com.example.cleanarchitecture.infrastructure.order.controller.CreateOrderController">
+<area shape="rect" id="node1" title=" " alt="" coords="190,684,617,776"/>
+<area shape="rect" id="node2" href="$classcom_1_1example_1_1cleanarchitecture_1_1application_1_1order_1_1CreateOrderService.html" title=" " alt="" coords="231,529,576,621"/>
+<area shape="rect" id="node3" href="$classcom_1_1example_1_1cleanarchitecture_1_1usecase_1_1order_1_1CreateOrderUseCase.html" title=" " alt="" coords="240,360,567,467"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1order_1_1gateway_1_1OrderGateway.html" title=" " alt="" coords="5,205,385,297"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html" title=" " alt="" coords="37,5,354,156"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1domain_1_1inventory_1_1gateway_1_1InventoryGateway.html" title=" " alt="" coords="409,205,816,297"/>
+<area shape="rect" id="node7" href="$interfacecom_1_1example_1_1cleanarchitecture_1_1core_1_1domain_1_1IGateway.html" title=" " alt="" coords="454,5,771,156"/>
+</map>
